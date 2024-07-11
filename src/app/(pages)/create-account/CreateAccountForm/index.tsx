@@ -83,14 +83,14 @@ const CreateAccountForm: React.FC = () => {
       <Message error={error} className={classes.message} />
       <Input
         name="email"
-        label="Email Address"
+        label="Email"
         required
         register={register}
         error={errors.email}
         type="email"
       />
       <Input
-        name="name"
+        name="nom"
         label="Full name"
         required
         register={register}

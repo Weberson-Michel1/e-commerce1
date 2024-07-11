@@ -45,7 +45,7 @@ export default async function RecoverPassword() {
 
 export const metadata: Metadata = {
   title: 'Recover Password',
-  description: 'Enter your email address to recover your password.',
+  description: 'E,trer votre email pour retrouver votre mot de passe.',
   openGraph: mergeOpenGraph({
     title: 'Recover Password',
     url: '/recover-password',

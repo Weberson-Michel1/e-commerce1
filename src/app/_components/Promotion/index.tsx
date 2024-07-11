@@ -41,11 +41,7 @@ const Promotion = () => {
     <section className={classes.promotion}>
       <div className={classes.textBox}>
         <h3 className={classes.title}>Offres du mois</h3>
-        <p>
-          Get ready for a shopping experience like never before with our Deals of the Month! Every
-          purchase comes with exclusive perks and offers, making this month a celebration of savvy
-          choices and amazing deals. Don't miss out! 🎁 🛒
-        </p>
+        <p>Offre exeptionelle sur les macbook 🎁 🛒. Elle prendra fin dans :</p>
 
         <ul className={classes.stats}>
           <StatBox label="Jours" value={time.days} />

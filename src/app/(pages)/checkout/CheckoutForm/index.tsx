@@ -1,3 +1,4 @@
+
 'use client'
 
 import React, { useCallback } from 'react'
@@ -100,7 +101,7 @@ export const CheckoutForm: React.FC<{}> = () => {
       {error && <Message error={error} />}
       <PaymentElement />
       <div className={classes.actions}>
-        <Button label="Back to cart" href="/cart" appearance="secondary" />
+        <Button label="Panier" href="/cart" appearance="secondary" />
         <Button
           label={isLoading ? 'Loading...' : 'Checkout'}
           type="submit"

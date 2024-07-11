@@ -35,10 +35,10 @@ export default async function Login() {
           <RenderParams className={classes.params} />
 
           <div className={classes.formTitle}>
-            <h3>Welcome</h3>
+            <h3>Bienvenue</h3>
           </div>
 
-          <p>Please login here</p>
+          <p>Connectez vous ici</p>
           <LoginForm />
         </div>
       </div>

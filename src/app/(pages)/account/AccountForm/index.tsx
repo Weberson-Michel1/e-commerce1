@@ -53,7 +53,7 @@ const AccountForm: React.FC = () => {
         if (response.ok) {
           const json = await response.json()
           setUser(json.doc)
-          setSuccess('Successfully updated account.')
+          setSuccess('Mise à jour du compte validée.')
           setError('')
           setChangePassword(false)
           reset({
@@ -74,7 +74,7 @@ const AccountForm: React.FC = () => {
     if (user === null) {
       router.push(
         `/login?error=${encodeURIComponent(
-          'You must be logged in to view this page.',
+          'Vous devez vous connecter pour voir cette page.',
         )}&redirect=${encodeURIComponent('/account')}`,
       )
     }
@@ -96,36 +96,36 @@ const AccountForm: React.FC = () => {
       {!changePassword ? (
         <Fragment>
           <p>
-            {'Change your account details below, or '}
+            {'Changer les détails de votre compte en dessous , ou '}
             <button
               type="button"
               className={classes.changePassword}
               onClick={() => setChangePassword(!changePassword)}
             >
-              click here
+              cliquer ici
             </button>
-            {' to change your password.'}
+            {' pour changer votre mot de passe.'}
           </p>
           <Input
             name="email"
-            label="Email Address"
+            label="Email"
             required
             register={register}
             error={errors.email}
             type="email"
           />
-          <Input name="name" label="Name" register={register} error={errors.name} />
+          <Input name="name" label="Nom" register={register} error={errors.name} />
         </Fragment>
       ) : (
         <Fragment>
           <p>
-            {'Change your password below, or '}
+            {'Changer les détails de votre compte en dessous , ou '}
             <button
               type="button"
               className={classes.changePassword}
               onClick={() => setChangePassword(!changePassword)}
             >
-              cancel
+              annuler
             </button>
             .
           </p>
@@ -143,14 +143,14 @@ const AccountForm: React.FC = () => {
             label="Confirm Password"
             required
             register={register}
-            validate={value => value === password.current || 'The passwords do not match'}
+            validate={value => value === password.current || 'Le mot de passe ne correspond pas'}
             error={errors.passwordConfirm}
           />
         </Fragment>
       )}
       <Button
         type="submit"
-        label={isLoading ? 'Processing' : changePassword ? 'Change Password' : 'Update Account'}
+        label={isLoading ? 'En cours' : changePassword ? 'Changer mot de passe' : 'Mettre à jour votre compte'}
         disabled={isLoading}
         appearance="primary"
         className={classes.submit}

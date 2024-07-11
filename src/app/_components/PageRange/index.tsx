@@ -3,14 +3,14 @@ import React from 'react'
 import classes from './index.module.scss'
 
 const defaultLabels = {
-  plural: 'Docs',
-  singular: 'Doc',
+  plural: 'Produits',
+  singular: 'Produit',
 }
 
 const defaultCollectionLabels = {
   posts: {
-    plural: 'Products',
-    singular: 'Product',
+    plural: 'Produits',
+    singular: 'Produit',
   },
 }
 
@@ -45,10 +45,11 @@ export const PageRange: React.FC<{
 
   return (
     <div className={[className, classes.pageRange].filter(Boolean).join(' ')}>
-      {(typeof totalDocs === 'undefined' || totalDocs === 0) && 'Search produced no results.'}
+      {(typeof totalDocs === 'undefined' || totalDocs === 0) &&
+        'Aucun résultats pour cette recherche.'}
       {typeof totalDocs !== 'undefined' &&
         totalDocs > 0 &&
-        `Showing ${indexStart}${indexStart > 0 ? ` - ${indexEnd}` : ''} of ${totalDocs} ${
+        ` Montrer ${indexStart}${indexStart > 0 ? ` - ${indexEnd}` : ''} sur ${totalDocs} ${
           totalDocs > 1 ? plural : singular
         }`}
     </div>

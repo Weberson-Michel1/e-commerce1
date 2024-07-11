@@ -55,7 +55,7 @@ export const RecoverPasswordForm: React.FC = () => {
             <Message error={error} className={classes.message} />
             <Input
               name="email"
-              label="Email Address"
+              label="Email"
               required
               register={register}
               error={errors.email}
