@@ -31,6 +31,17 @@ https://github.com/Weberson-Michel1/e-commerce1/assets/165775499/21ec6a4e-f29d-4
 
 
 
+
+https://github.com/user-attachments/assets/d7ac7adc-57d3-4d25-b077-34894c129ae6
+
+
+
+https://github.com/user-attachments/assets/77f52a8e-d9b1-4946-a385-a4f99677eb32
+
+
+
+
+
 # Payload E-Commerce Template
 
 This is the official [Payload E-Commerce Template](https://github.com/payloadcms/payload/blob/main/templates/ecommerce). Use it to power e-commerce businesses and online stores of all sizes. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
