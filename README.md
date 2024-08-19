@@ -18,6 +18,19 @@ https://github.com/user-attachments/assets/8f3eeed9-70c2-4911-942e-0b2dd4e07ade
 https://github.com/user-attachments/assets/026cea2a-7900-47b4-a3b6-f5760f86eb2b
 
 
+
+https://github.com/Weberson-Michel1/e-commerce1/assets/165775499/c77f4a43-a3e0-4515-9618-ae23933ad926
+
+
+
+https://github.com/Weberson-Michel1/e-commerce1/assets/165775499/9c491bf1-51c8-468a-9ba9-1e5b48422268
+
+
+
+https://github.com/Weberson-Michel1/e-commerce1/assets/165775499/21ec6a4e-f29d-446e-9e3a-bde0c4611b61
+
+
+
 # Payload E-Commerce Template
 
 This is the official [Payload E-Commerce Template](https://github.com/payloadcms/payload/blob/main/templates/ecommerce). Use it to power e-commerce businesses and online stores of all sizes. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
@@ -348,14 +361,6 @@ The easiest way to deploy your project is to use [Payload Cloud](https://payload
 
 If you have any issues or questions, reach out to us on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions).
 
-https://github.com/Weberson-Michel1/e-commerce1/assets/165775499/c77f4a43-a3e0-4515-9618-ae23933ad926
 
-
-
-https://github.com/Weberson-Michel1/e-commerce1/assets/165775499/9c491bf1-51c8-468a-9ba9-1e5b48422268
-
-
-
-https://github.com/Weberson-Michel1/e-commerce1/assets/165775499/21ec6a4e-f29d-446e-9e3a-bde0c4611b61
 
 
